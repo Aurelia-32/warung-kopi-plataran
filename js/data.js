@@ -106,7 +106,7 @@ window.menuMinuman = [
     key: "choco",
     title: "Choco Series",
     items: [
-      { nama: "Royal Chocolate (Panas / Dingin)", harga: 18000, best: true, has_photo: true, photo: "assets/images/royal-chocolate.jpg" },
+      { nama: "Royal Chocolate (Panas / Dingin)", harga: 18000, best: true, has_photo: false, photo: "" },
       { nama: "Choco Regal",                       harga: 21000, best: false, has_photo: false, photo: "" }
     ]
   },
