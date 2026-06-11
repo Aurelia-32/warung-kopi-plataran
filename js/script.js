@@ -79,7 +79,7 @@
       <footer class="site-footer">
         <div class="site-footer__inner">
           ${buildLogo("light")}
-          <p class="site-footer__tagline">Masakan Khas Bojonegoro · Resep Keluarga · Sejak 2018</p>
+          <p class="site-footer__tagline">Masakan Khas Bojonegoro · Resep Keluarga · Sejak 2024</p>
           <div class="site-footer__divider"></div>
           <p class="site-footer__copy">© 2026 Warung Kopi Plataran. All rights reserved.</p>
         </div>
