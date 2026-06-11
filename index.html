@@ -170,7 +170,7 @@
         <span class="gold-accent is-center"></span>
       </div>
 
-      <!-- Desktop: interactive book with page-turn animation -->
+      <!-- Desktop: interactive book animation -->
       <div id="bookDesktop"></div>
 
       <!-- Mobile: scrollable list with tabs (fallback on small screens) -->
@@ -474,6 +474,12 @@
                           <label for="resOrang">Jumlah Orang</label>
                           <input type="number" id="resOrang" min="1" value="2">
                       </div>
+
+                      <div class="form-row">
+                          <label for="resPesanan">Pesanan</label>
+                          <textarea id="resPesanan" placeholder="Masukkan pesanan Anda"></textarea>
+                      </div>
+                      
                       <div class="form-row">
                           <label for="resCatatan">Catatan (opsional)</label>
                           <textarea id="resCatatan" placeholder="Mis. dekat jendela, ada perayaan ulang tahun, dll."></textarea>
@@ -552,6 +558,7 @@
               const tanggal = document.getElementById('resTanggal').value;
               const jam     = document.getElementById('resJam').value;
               const orang   = document.getElementById('resOrang').value;
+              const pesanan = document.getElementById('resPesanan').value.trim();
               const catatan = document.getElementById('resCatatan').value.trim();
 
               if (!nama || !tanggal || !jam) {
@@ -565,6 +572,7 @@
                   'Tanggal: '      + tanggal + '\n' +
                   'Jam: '          + jam     + '\n' +
                   'Jumlah orang: ' + (orang || '-');
+              if (pesanan) pesan += '\nPesanan: ' + pesanan;
               if (catatan) pesan += '\nCatatan: ' + catatan;
 
               window.open(CONTACT_WA_BASE + '?text=' + encodeURIComponent(pesan), '_blank');

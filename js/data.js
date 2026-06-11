@@ -26,7 +26,7 @@ window.menuMakanan = [
       { nama: "Iwak Pe",     harga: 27000, best: false, has_photo: false, photo: "" },
       { nama: "Udang",       harga: 34000, best: false, has_photo: false, photo: "" },
       { nama: "Daging Bumbu",harga: 38000, best: false, has_photo: false, photo: "" },
-      { nama: "Cakalang",    harga: 26000, best: false, has_photo: false, photo: "z`" },
+      { nama: "Cakalang",    harga: 26000, best: false, has_photo: false, photo: "" },
       { nama: "Cumi",        harga: 34000, best: false, has_photo: false, photo: "" },
       { nama: "Paru",        harga: 32000, best: false, has_photo: false, photo: "" }
     ]
